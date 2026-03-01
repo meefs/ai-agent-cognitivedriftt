@@ -96,67 +96,67 @@ importers:
 
   agent:
     dependencies:
-      '@ai16z/adapter-postgres':
+      '@elizaos/adapter-postgres':
         specifier: workspace:*
         version: link:../packages/adapter-postgres
-      '@ai16z/adapter-sqlite':
+      '@elizaos/adapter-sqlite':
         specifier: workspace:*
         version: link:../packages/adapter-sqlite
-      '@ai16z/client-auto':
+      '@elizaos/client-auto':
         specifier: workspace:*
         version: link:../packages/client-auto
-      '@ai16z/client-direct':
+      '@elizaos/client-direct':
         specifier: workspace:*
         version: link:../packages/client-direct
-      '@ai16z/client-discord':
+      '@elizaos/client-discord':
         specifier: workspace:*
         version: link:../packages/client-discord
-      '@ai16z/client-telegram':
+      '@elizaos/client-telegram':
         specifier: workspace:*
         version: link:../packages/client-telegram
-      '@ai16z/client-twitter':
+      '@elizaos/client-twitter':
         specifier: workspace:*
         version: link:../packages/client-twitter
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../packages/core
-      '@ai16z/plugin-0g':
+      '@elizaos/plugin-0g':
         specifier: workspace:*
         version: link:../packages/plugin-0g
-      '@ai16z/plugin-bootstrap':
+      '@elizaos/plugin-bootstrap':
         specifier: workspace:*
         version: link:../packages/plugin-bootstrap
-      '@ai16z/plugin-buttplug':
+      '@elizaos/plugin-buttplug':
         specifier: workspace:*
         version: link:../packages/plugin-buttplug
-      '@ai16z/plugin-coinbase':
+      '@elizaos/plugin-coinbase':
         specifier: workspace:*
         version: link:../packages/plugin-coinbase
-      '@ai16z/plugin-conflux':
+      '@elizaos/plugin-conflux':
         specifier: workspace:*
         version: link:../packages/plugin-conflux
-      '@ai16z/plugin-evm':
+      '@elizaos/plugin-evm':
         specifier: workspace:*
         version: link:../packages/plugin-evm
-      '@ai16z/plugin-goat':
+      '@elizaos/plugin-goat':
         specifier: workspace:*
         version: link:../packages/plugin-goat
-      '@ai16z/plugin-icp':
+      '@elizaos/plugin-icp':
         specifier: workspace:*
         version: link:../packages/plugin-icp
-      '@ai16z/plugin-image-generation':
+      '@elizaos/plugin-image-generation':
         specifier: workspace:*
         version: link:../packages/plugin-image-generation
-      '@ai16z/plugin-node':
+      '@elizaos/plugin-node':
         specifier: workspace:*
         version: link:../packages/plugin-node
-      '@ai16z/plugin-solana':
+      '@elizaos/plugin-solana':
         specifier: workspace:*
         version: link:../packages/plugin-solana
-      '@ai16z/plugin-starknet':
+      '@elizaos/plugin-starknet':
         specifier: workspace:*
         version: link:../packages/plugin-starknet
-      '@ai16z/plugin-tee':
+      '@elizaos/plugin-tee':
         specifier: workspace:*
         version: link:../packages/plugin-tee
       readline:
@@ -178,7 +178,7 @@ importers:
 
   client:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../packages/core
       '@radix-ui/react-dialog':
@@ -330,7 +330,7 @@ importers:
 
   packages/adapter-postgres:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       '@types/pg':
@@ -346,7 +346,7 @@ importers:
 
   packages/adapter-sqlite:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       '@types/better-sqlite3':
@@ -368,7 +368,7 @@ importers:
 
   packages/adapter-sqljs:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       '@types/sql.js':
@@ -390,7 +390,7 @@ importers:
 
   packages/adapter-supabase:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       '@supabase/supabase-js':
@@ -406,7 +406,7 @@ importers:
 
   packages/client-auto:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       '@types/body-parser':
@@ -437,10 +437,10 @@ importers:
 
   packages/client-direct:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
-      '@ai16z/plugin-image-generation':
+      '@elizaos/plugin-image-generation':
         specifier: workspace:*
         version: link:../plugin-image-generation
       '@types/body-parser':
@@ -477,21 +477,21 @@ importers:
 
   packages/client-discord:
     dependencies:
-      '@ai16z/eliza':
-        specifier: workspace:*
-        version: link:../core
-      '@ai16z/plugin-node':
-        specifier: workspace:*
-        version: link:../plugin-node
       '@discordjs/opus':
         specifier: github:discordjs/opus
-        version: https://codeload.github.com/discordjs/opus/tar.gz/31da49d8d2cc6c5a2ab1bfd332033ff7d5f9fb02(encoding@0.1.13)
+        version: https://codeload.github.com/discordjs/opus/tar.gz/3f4a3d4cc3997107435a59ae86bc044d6c3be73e(encoding@0.1.13)
       '@discordjs/rest':
         specifier: 2.4.0
         version: 2.4.0
       '@discordjs/voice':
         specifier: 0.17.0
-        version: 0.17.0(@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/31da49d8d2cc6c5a2ab1bfd332033ff7d5f9fb02(encoding@0.1.13))(bufferutil@4.0.8)(ffmpeg-static@5.2.0)(utf-8-validate@5.0.10)
+        version: 0.17.0(@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/3f4a3d4cc3997107435a59ae86bc044d6c3be73e(encoding@0.1.13))(bufferutil@4.0.8)(ffmpeg-static@5.2.0)(utf-8-validate@5.0.10)
+      '@elizaos/eliza':
+        specifier: workspace:*
+        version: link:../core
+      '@elizaos/plugin-node':
+        specifier: workspace:*
+        version: link:../plugin-node
       discord.js:
         specifier: 14.16.3
         version: 14.16.3(bufferutil@4.0.8)(utf-8-validate@5.0.10)
@@ -500,7 +500,7 @@ importers:
         version: 0.7.15
       prism-media:
         specifier: 1.3.5
-        version: 1.3.5(@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/31da49d8d2cc6c5a2ab1bfd332033ff7d5f9fb02(encoding@0.1.13))(ffmpeg-static@5.2.0)
+        version: 1.3.5(@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/3f4a3d4cc3997107435a59ae86bc044d6c3be73e(encoding@0.1.13))(ffmpeg-static@5.2.0)
       whatwg-url:
         specifier: 7.1.0
         version: 7.1.0
@@ -514,7 +514,7 @@ importers:
 
   packages/client-farcaster:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       '@farcaster/hub-nodejs':
@@ -530,7 +530,7 @@ importers:
 
   packages/client-github:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       '@octokit/rest':
@@ -555,7 +555,7 @@ importers:
 
   packages/client-telegram:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       '@telegraf/types':
@@ -574,7 +574,7 @@ importers:
 
   packages/client-twitter:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       agent-twitter-client:
@@ -784,7 +784,7 @@ importers:
       '@0glabs/0g-ts-sdk':
         specifier: 0.2.1
         version: 0.2.1(bufferutil@4.0.8)(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))(utf-8-validate@5.0.10)
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       ethers:
@@ -796,7 +796,7 @@ importers:
 
   packages/plugin-bootstrap:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       tsup:
@@ -808,7 +808,7 @@ importers:
 
   packages/plugin-buttplug:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       buttplug:
@@ -826,7 +826,7 @@ importers:
 
   packages/plugin-coinbase:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       coinbase-api:
@@ -839,7 +839,7 @@ importers:
 
   packages/plugin-conflux:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       cive:
@@ -848,10 +848,10 @@ importers:
 
   packages/plugin-evm:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
-      '@ai16z/plugin-trustdb':
+      '@elizaos/plugin-trustdb':
         specifier: workspace:*
         version: link:../plugin-trustdb
       '@lifi/data-types':
@@ -875,7 +875,7 @@ importers:
 
   packages/plugin-goat:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       '@goat-sdk/core':
@@ -899,9 +899,6 @@ importers:
 
   packages/plugin-icp:
     dependencies:
-      '@ai16z/eliza':
-        specifier: workspace:*
-        version: link:../core
       '@dfinity/agent':
         specifier: 2.1.3
         version: 2.1.3(@dfinity/candid@2.1.3(@dfinity/principal@2.1.3))(@dfinity/principal@2.1.3)
@@ -914,6 +911,9 @@ importers:
       '@dfinity/principal':
         specifier: 2.1.3
         version: 2.1.3
+      '@elizaos/eliza':
+        specifier: workspace:*
+        version: link:../core
     devDependencies:
       '@types/jest':
         specifier: 29.5.14
@@ -930,7 +930,7 @@ importers:
 
   packages/plugin-image-generation:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       tsup:
@@ -942,9 +942,6 @@ importers:
 
   packages/plugin-node:
     dependencies:
-      '@ai16z/eliza':
-        specifier: workspace:*
-        version: link:../core
       '@cliqz/adblocker-playwright':
         specifier: 1.34.0
         version: 1.34.0(playwright@1.48.2)
@@ -957,6 +954,9 @@ importers:
       '@echogarden/speex-resampler-wasm':
         specifier: 0.2.1
         version: 0.2.1
+      '@elizaos/eliza':
+        specifier: workspace:*
+        version: link:../core
       '@huggingface/transformers':
         specifier: 3.0.2
         version: 3.0.2
@@ -1114,15 +1114,15 @@ importers:
 
   packages/plugin-solana:
     dependencies:
-      '@ai16z/eliza':
-        specifier: workspace:*
-        version: link:../core
-      '@ai16z/plugin-trustdb':
-        specifier: workspace:*
-        version: link:../plugin-trustdb
       '@coral-xyz/anchor':
         specifier: 0.30.1
         version: 0.30.1(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
+      '@elizaos/eliza':
+        specifier: workspace:*
+        version: link:../core
+      '@elizaos/plugin-trustdb':
+        specifier: workspace:*
+        version: link:../plugin-trustdb
       '@solana/spl-token':
         specifier: 0.4.9
         version: 0.4.9(@solana/web3.js@1.95.5(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
@@ -1159,15 +1159,15 @@ importers:
 
   packages/plugin-starknet:
     dependencies:
-      '@ai16z/eliza':
-        specifier: workspace:*
-        version: link:../core
-      '@ai16z/plugin-trustdb':
-        specifier: workspace:*
-        version: link:../plugin-trustdb
       '@avnu/avnu-sdk':
         specifier: 2.1.1
         version: 2.1.1(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))(qs@6.13.0)(starknet@6.18.0(encoding@0.1.13))
+      '@elizaos/eliza':
+        specifier: workspace:*
+        version: link:../core
+      '@elizaos/plugin-trustdb':
+        specifier: workspace:*
+        version: link:../plugin-trustdb
       '@uniswap/sdk-core':
         specifier: 6.0.0
         version: 6.0.0
@@ -1189,7 +1189,7 @@ importers:
 
   packages/plugin-tee:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       '@phala/dstack-sdk':
@@ -1228,7 +1228,7 @@ importers:
 
   packages/plugin-trustdb:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       dompurify:
@@ -1253,7 +1253,7 @@ importers:
 
   packages/plugin-video-generation:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       tsup:
@@ -1265,7 +1265,7 @@ importers:
 
   packages/plugin-web-search:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       tsup:
@@ -1277,7 +1277,7 @@ importers:
 
   packages/plugin-whatsapp:
     dependencies:
-      '@ai16z/eliza':
+      '@elizaos/eliza':
         specifier: workspace:*
         version: link:../core
       axios:
@@ -2850,10 +2850,10 @@ packages:
     resolution: {integrity: sha512-YJOVVZ545x24mHzANfYoy0BJX5PDyeZlpiJjDkUBM/V/Ao7TFX9lcUvCN4nr0tbr5ubeaXxtEBILUrHtTphVeQ==}
     hasBin: true
 
-  '@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/31da49d8d2cc6c5a2ab1bfd332033ff7d5f9fb02':
-    resolution: {tarball: https://codeload.github.com/discordjs/opus/tar.gz/31da49d8d2cc6c5a2ab1bfd332033ff7d5f9fb02}
-    version: 0.9.0
-    engines: {node: '>=12.0.0'}
+  '@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/3f4a3d4cc3997107435a59ae86bc044d6c3be73e':
+    resolution: {tarball: https://codeload.github.com/discordjs/opus/tar.gz/3f4a3d4cc3997107435a59ae86bc044d6c3be73e}
+    version: 0.10.0
+    engines: {node: '>=20'}
 
   '@discordjs/rest@2.4.0':
     resolution: {integrity: sha512-Xb2irDqNcq+O8F0/k/NaDp7+t091p+acb51iA4bCKfIn+WFWd6HrNvcsSbMMxIR9NjcMZS6NReTKygqiQN+ntw==}
@@ -4017,6 +4017,7 @@ packages:
   '@msgpack/msgpack@3.0.0-beta2':
     resolution: {integrity: sha512-y+l1PNV0XDyY8sM3YtuMLK5vE3/hkfId+Do8pLo/OPxfxuFAUwcGz3oiiUuV46/aBpwTzZ+mRWVMtlSKbradhw==}
     engines: {node: '>= 14'}
+    deprecated: too old
 
   '@napi-rs/wasm-runtime@0.2.4':
     resolution: {integrity: sha512-9zESzOO5aDByvhIAsOy9TbpZ0Ur2AJbUI7UT73kcUTS2mxAMHOBaa1st/jAymNoCtvrit99kkzT1FZuXVcgfIQ==}
@@ -6613,6 +6614,7 @@ packages:
 
   agent-twitter-client@0.0.16:
     resolution: {integrity: sha512-Clgb/N2LXoGMlId6GDUaaR05eJ0PqSifM6wikl/FiQ2+3+6I2ZhZB7KRulc8R4xvYFe6h0wNWe6FZiF48r124w==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   agentkeepalive@4.5.0:
     resolution: {integrity: sha512-5GG/5IbQQpC9FpkRGsSvZI5QYeSCzlJHdpBQntCsuTOxhKD8lqKhrleg2Yi7yvMIf82Ycmmqln9U8V9qwEiJew==}
@@ -7000,6 +7002,7 @@ packages:
   basic-ftp@5.0.5:
     resolution: {integrity: sha512-4Bcg1P8xhUuqcii/S0Z9wiHIrQVPMermM1any+MX5GeGD7faD3/msQUDGLol9wOcz4/jbg/WJnGqoJF6LiBdtg==}
     engines: {node: '>=10.0.0'}
+    deprecated: Security vulnerability fixed in 5.2.0, please upgrade
 
   batch@0.6.1:
     resolution: {integrity: sha512-x+VAiMRL6UPkx+kudNvxTl6hB2XNNCG2r+7wixVfIYwu/2HKRXimwQyaumLjMveWvT2Hkd/cAJw+QBMfJ/EKVw==}
@@ -9106,6 +9109,7 @@ packages:
   fluent-ffmpeg@2.1.3:
     resolution: {integrity: sha512-Be3narBNt2s6bsaqP6Jzq91heDgOEaDCJAXcE3qcma/EJBSy5FB4cvO31XBInuAuKBx8Kptf8dkhjK0IOru39Q==}
     engines: {node: '>=18'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   follow-redirects@1.15.9:
     resolution: {integrity: sha512-gew4GsXizNgdoRyqmyfMHyAmXsZDk6mHkSxZFCzW9gwlbtOW44CDtYavM+y+72qD/Vq2l550kMF52DT8fOLJqQ==}
@@ -9342,11 +9346,13 @@ packages:
   git-raw-commits@2.0.11:
     resolution: {integrity: sha512-VnctFhw+xfj8Va1xtfEqCUD2XDrbAPSJx+hSrE5K7fGdjZruW7XV+QOrN7LF/RJyvspRiD2I0asWsxFp0ya26A==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-raw-commits@3.0.0:
     resolution: {integrity: sha512-b5OHmZ3vAgGrDn/X0kS+9qCfNKWe4K/jFnhwzVWWg0/k5eLa3060tZShrRg8Dja5kPc+YjS0Gc6y7cRr44Lpjw==}
     engines: {node: '>=14'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-remote-origin-url@2.0.0:
@@ -9356,6 +9362,7 @@ packages:
   git-semver-tags@5.0.1:
     resolution: {integrity: sha512-hIvOeZwRbQ+7YEUmCkHqo8FOLQZCEn18yevLHADlFPZY02KJGsu5FZt9YW/lybfK2uhWFI7Qg/07LekJiTv7iA==}
     engines: {node: '>=14'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-sha1@0.1.2:
@@ -9389,25 +9396,28 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@11.0.0:
     resolution: {integrity: sha512-9UiX/Bl6J2yaBbxKoEBRm4Cipxgok8kQYcOPEhScPwebu2I0HoQOuYdIO6S3hLuWoZgpDpwQZMzTFxgpkyT76g==}
     engines: {node: 20 || >=22}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   glob@8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
     engines: {node: '>=12'}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   glob@9.3.5:
     resolution: {integrity: sha512-e1LleDykUz2Iu+MTYdkSsuWX8lvAjAcs0Xef0lNIu0S2wOAzuTxCJtcd9S3cijlwYF18EsU3rzb8jPVobxDh9Q==}
     engines: {node: '>=16 || 14 >=14.17'}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-dirs@0.1.1:
     resolution: {integrity: sha512-NknMLn7F2J7aflwFOlGdNIuCDpN3VGoSoB+aap3KABFWbHVn1TCgFC+np23J8W2BiZbjfEw3BFBycSMv1AFblg==}
@@ -11409,6 +11419,7 @@ packages:
   multer@1.4.5-lts.1:
     resolution: {integrity: sha512-ywPWvcDMeH+z9gQq5qYHCCy+ethsk4goepZ45GLD63fOu0YcNecQxi64nDs3qluZB+murG3/D4dJ7+dGctcCQQ==}
     engines: {node: '>= 6.0.0'}
+    deprecated: Multer 1.x is impacted by a number of vulnerabilities, which have been patched in 2.x. You should upgrade to the latest 2.x version.
 
   multi-integer-range@3.0.0:
     resolution: {integrity: sha512-uQzynjVJ8F7x5wjaK0g4Ybhy2TvO/pk96+YHyS5g1W4GuUEV6HMebZ8HcRwWgKIRCUT2MLbM5uCKwYcAqkS+8Q==}
@@ -11517,6 +11528,10 @@ packages:
     resolution: {integrity: sha512-8VOpLHFrOQlAH+qA0ZzuGRlALRA6/LVh8QJldbrC4DY0hXoMP0l4Acq8TzFC018HztWiRqyCEj2aTWY2UvnJUg==}
     engines: {node: ^18 || ^20 || >= 21}
 
+  node-addon-api@8.6.0:
+    resolution: {integrity: sha512-gBVjCaqDlRUk0EwoPNKzIr9KkS9041G/q31IBShPs1Xz6UTA+EXdZADbzqAJQrpDRq71CIMnOP5VMut3SL0z5Q==}
+    engines: {node: ^18 || ^20 || >= 21}
+
   node-api-headers@1.4.0:
     resolution: {integrity: sha512-u83U3WnRbBpWlhc0sQbpF3slHRLV/a6/OXByc+QzHcLxiDiJUWLuKGZp4/ntZUchnXGOCnCq++JUEtwb1/tyow==}
 
@@ -11531,6 +11546,7 @@ packages:
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
+    deprecated: Use your platform's native DOMException instead
 
   node-emoji@2.1.3:
     resolution: {integrity: sha512-E2WEOVsgs7O16zsURJ/eH8BqhF029wGpEOnv7Urwdo2wmQanOACwJQh0devF9D9RhoZru0+9JXIS0dBXIAz+lA==}
@@ -12951,6 +12967,7 @@ packages:
   prebuild-install@7.1.2:
     resolution: {integrity: sha512-UnNke3IQb6sgarcZIDU3gbMeTp/9SSU1DAIkil7PrqG1vZlBtY5msYccSKSHDqa3hNg436IXK+SNImReuA1wEQ==}
     engines: {node: '>=10'}
+    deprecated: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
     hasBin: true
 
   prelude-ls@1.2.1:
@@ -13162,7 +13179,7 @@ packages:
 
   puppeteer@19.11.1:
     resolution: {integrity: sha512-39olGaX2djYUdhaQQHDZ0T0GwEp+5f9UB9HmEP0qHfdQHIq0xGQZuAZ5TLnJIc/88SrPLpEflPC+xUqOTv3c5g==}
-    deprecated: < 22.8.2 is no longer supported
+    deprecated: < 24.15.0 is no longer supported
 
   pure-rand@6.1.0:
     resolution: {integrity: sha512-bVWawvoZoBYpp6yIoQtQXHZjmz35RSVHnUOTefl8Vcjr8snTPY1wnpSPMWekcFwbxI6gtmT7rSYPFvz71ldiOA==}
@@ -14020,6 +14037,7 @@ packages:
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
 
   space-separated-tokens@1.1.5:
     resolution: {integrity: sha512-q/JSVd1Lptzhf5bkYm4ob4iWPjx0KiRe3sRFBNrVqbJkFaBm5vbbowy1mymoPNLRa52+oadOhJ+K49wsSeSjTA==}
@@ -14370,10 +14388,12 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   tar@7.4.3:
     resolution: {integrity: sha512-5S7Va8hKfV7W5U6g3aYxXmlPoZVAwUMy9AOKyF2fVuZa2UD3qZjg578OrLRt8PcNN1PleVaL/5/yYATNL0ICUw==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   telegraf@4.16.3:
     resolution: {integrity: sha512-yjEu2NwkHlXu0OARWoNhJlIjX09dRktiMQFsM678BAH/PEPVwctzL67+tvXqLCRQQvm3SDtki2saGO9hLlz68w==}
@@ -15404,6 +15424,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-fetch@3.6.20:
     resolution: {integrity: sha512-EqhiFU6daOA8kpjOWTL0olhVOF3i7OrFzSYiGsEMB8GcXS+RrzauAERX65xMeNWVqxA6HXH2m69Z9LaKKdisfg==}
@@ -15585,6 +15606,7 @@ packages:
   yaeti@0.0.6:
     resolution: {integrity: sha512-MvQa//+KcZCUkBTIC9blM+CU9J2GzuTytsOUwf2lidtvkx/6gnEp1QvJv34t9vdjhFmha/mUiNDbN0D0mJWdug==}
     engines: {node: '>=0.10.32'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
@@ -17935,10 +17957,10 @@ snapshots:
       - encoding
       - supports-color
 
-  '@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/31da49d8d2cc6c5a2ab1bfd332033ff7d5f9fb02(encoding@0.1.13)':
+  '@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/3f4a3d4cc3997107435a59ae86bc044d6c3be73e(encoding@0.1.13)':
     dependencies:
       '@discordjs/node-pre-gyp': 0.4.5(encoding@0.1.13)
-      node-addon-api: 8.3.0
+      node-addon-api: 8.6.0
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -17957,11 +17979,11 @@ snapshots:
 
   '@discordjs/util@1.1.1': {}
 
-  '@discordjs/voice@0.17.0(@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/31da49d8d2cc6c5a2ab1bfd332033ff7d5f9fb02(encoding@0.1.13))(bufferutil@4.0.8)(ffmpeg-static@5.2.0)(utf-8-validate@5.0.10)':
+  '@discordjs/voice@0.17.0(@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/3f4a3d4cc3997107435a59ae86bc044d6c3be73e(encoding@0.1.13))(bufferutil@4.0.8)(ffmpeg-static@5.2.0)(utf-8-validate@5.0.10)':
     dependencies:
       '@types/ws': 8.5.13
       discord-api-types: 0.37.83
-      prism-media: 1.3.5(@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/31da49d8d2cc6c5a2ab1bfd332033ff7d5f9fb02(encoding@0.1.13))(ffmpeg-static@5.2.0)
+      prism-media: 1.3.5(@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/3f4a3d4cc3997107435a59ae86bc044d6c3be73e(encoding@0.1.13))(ffmpeg-static@5.2.0)
       tslib: 2.8.1
       ws: 8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
@@ -29162,6 +29184,8 @@ snapshots:
 
   node-addon-api@8.3.0: {}
 
+  node-addon-api@8.6.0: {}
+
   node-api-headers@1.4.0: {}
 
   node-bitmap@0.0.1: {}
@@ -30844,9 +30868,9 @@ snapshots:
 
   pretty-time@1.1.0: {}
 
-  prism-media@1.3.5(@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/31da49d8d2cc6c5a2ab1bfd332033ff7d5f9fb02(encoding@0.1.13))(ffmpeg-static@5.2.0):
+  prism-media@1.3.5(@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/3f4a3d4cc3997107435a59ae86bc044d6c3be73e(encoding@0.1.13))(ffmpeg-static@5.2.0):
     optionalDependencies:
-      '@discordjs/opus': https://codeload.github.com/discordjs/opus/tar.gz/31da49d8d2cc6c5a2ab1bfd332033ff7d5f9fb02(encoding@0.1.13)
+      '@discordjs/opus': https://codeload.github.com/discordjs/opus/tar.gz/3f4a3d4cc3997107435a59ae86bc044d6c3be73e(encoding@0.1.13)
       ffmpeg-static: 5.2.0
 
   prism-react-renderer@2.3.1(react@18.3.1):
