@@ -8,7 +8,7 @@
 
 ### Who is behind Eliza?
 
-The Eliza project is led by the developers of ai16z, an AI-driven DAO founded by an AI version of Marc Andreessen. The lead developer is [Shaw](https://x.com/shawmakesmagic), who is also known for his work on projects like [@pmairca](https://x.com/pmairca) and [@degenspartanai](https://x.com/degenspartanai). The project is open source, and its code is available on GitHub: https://github.com/ai16z/eliza
+The Eliza project is led by the developers of ai16z, an AI-driven DAO founded by an AI version of Marc Andreessen. The lead developer is [Shaw](https://x.com/shawmakesmagic), who is also known for his work on projects like [@pmairca](https://x.com/pmairca) and [@degenspartanai](https://x.com/degenspartanai). The project is open source, and its code is available on GitHub: https://github.com/elizaos/eliza
 
 ### How can I get started with Eliza?
 
@@ -114,7 +114,7 @@ We're developing a **"marketplace of trust"** where AI agents can learn from com
 There are several ways to contribute to the ai16z project:
 
 - **Participate in community discussions**: Share your memecoin insights, propose new ideas, and engage with other community members.
-- **Contribute to the development of the ai16z platform**: https://github.com/orgs/ai16z/projects/1/views/3
+- **Contribute to the development of the ai16z platform**: https://github.com/orgs/elizaos/projects/1/views/3
 - **Help build the ai16z ecosystem**: Create applicatoins / tools, resources, and memes. Give feedback, and spread the word
 
 **Other questions:**

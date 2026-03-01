@@ -7,7 +7,7 @@ import {
 } from "@solana/web3.js";
 import BigNumber from "bignumber.js";
 import { v4 as uuidv4 } from "uuid";
-import { TrustScoreDatabase } from "@ai16z/plugin-trustdb";
+import { TrustScoreDatabase } from "@elizaos/plugin-trustdb";
 import {
     ActionExample,
     HandlerCallback,
@@ -19,7 +19,7 @@ import {
     composeContext,
     generateObject,
     settings,
-} from "@ai16z/eliza";
+} from "@elizaos/eliza";
 import { TokenProvider } from "../providers/token.ts";
 import { TrustScoreManager } from "../providers/trustScoreProvider.ts";
 import { walletProvider, WalletProvider } from "../providers/wallet.ts";

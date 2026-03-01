@@ -1,4 +1,4 @@
-[@ai16z/eliza v0.1.4-alpha.3](../index.md) / IAgentRuntime
+[@elizaos/eliza v0.1.4-alpha.3](../index.md) / IAgentRuntime
 
 # Interface: IAgentRuntime
 

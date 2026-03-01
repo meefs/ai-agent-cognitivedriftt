@@ -1,5 +1,5 @@
 import { Context, Telegraf } from "telegraf";
-import { IAgentRuntime, elizaLogger } from "@ai16z/eliza";
+import { IAgentRuntime, elizaLogger } from "@elizaos/eliza";
 import { MessageManager } from "./messageManager.ts";
 
 export class TelegramClient {

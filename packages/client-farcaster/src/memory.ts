@@ -6,7 +6,7 @@ import {
     stringToUuid,
     type Memory,
     type UUID,
-} from "@ai16z/eliza";
+} from "@elizaos/eliza";
 import type { Cast } from "./types";
 import { toHex } from "viem";
 import { castUuid } from "./utils";

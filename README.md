@@ -12,7 +12,7 @@ An AI Agent built by Nader
 
 <div align="center">
 
-  📖 [Documentation](https://ai16z.github.io/eliza/) | 🎯 [Examples](https://github.com/thejoven/awesome-eliza)
+  📖 [Documentation](https://elizaos.github.io/eliza/) | 🎯 [Examples](https://github.com/thejoven/awesome-eliza)
 
 </div>
 
@@ -52,20 +52,20 @@ An AI Agent built by Nader
 ### Use the Starter (Recommended)
 
 ```bash
-git clone https://github.com/ai16z/eliza-starter.git
+git clone https://github.com/elizaos/eliza-starter.git
 
 cp .env.example .env
 
 pnpm i && pnpm start
 ```
 
-Then read the [Documentation](https://ai16z.github.io/eliza/) to learn how to customize your Eliza.
+Then read the [Documentation](https://elizaos.github.io/eliza/) to learn how to customize your Eliza.
 
 ### Manually Start Eliza (Only recommended if you know what you are doing)
 
 ```bash
 # Clone the repository
-git clone https://github.com/ai16z/eliza.git
+git clone https://github.com/elizaos/eliza.git
 
 # Checkout the latest release
 # This project iterates fast, so we recommend checking out the latest release
@@ -74,7 +74,7 @@ git checkout $(git describe --tags --abbrev=0)
 
 ### Start Eliza with Gitpod
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ai16z/eliza/tree/main)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
 
 ### Edit the .env file
 
@@ -125,15 +125,15 @@ pnpm install --include=optional sharp
 
 ### Community & contact
 
--   [GitHub Issues](https://github.com/ai16z/eliza/issues). Best for: bugs you encounter using Eliza, and feature proposals.
--   [Discord](https://discord.gg/ai16z). Best for: sharing your applications and hanging out with the community.
+-   [GitHub Issues](https://github.com/elizaos/eliza/issues). Best for: bugs you encounter using Eliza, and feature proposals.
+-   [Discord](https://discord.gg/elizaos). Best for: sharing your applications and hanging out with the community.
 
 ## Contributors
 
-<a href="https://github.com/ai16z/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ai16z/eliza" />
+<a href="https://github.com/elizaos/eliza/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
 </a>
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ai16z/eliza&type=Date)](https://star-history.com/#ai16z/eliza&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)

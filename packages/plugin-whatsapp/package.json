@@ -1,5 +1,5 @@
 {
-    "name": "@ai16z/plugin-whatsapp",
+    "name": "@elizaos/plugin-whatsapp",
     "version": "0.1.4-alpha.3",
     "description": "WhatsApp Cloud API plugin",
     "main": "dist/index.js",
@@ -12,7 +12,7 @@
     },
     "dependencies": {
         "axios": "1.7.8",
-        "@ai16z/eliza": "workspace:*"
+        "@elizaos/eliza": "workspace:*"
     },
     "devDependencies": {
         "@types/node": "20.17.9",

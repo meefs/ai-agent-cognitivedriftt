@@ -7,8 +7,8 @@ import {
     ModelClass,
     stringToUuid,
     parseBooleanFromText,
-} from "@ai16z/eliza";
-import { elizaLogger } from "@ai16z/eliza";
+} from "@elizaos/eliza";
+import { elizaLogger } from "@elizaos/eliza";
 import { ClientBase } from "./base.ts";
 
 const template1 = `

@@ -1,7 +1,7 @@
 import { CastId, FarcasterNetwork, Signer } from "@farcaster/hub-nodejs";
 import { CastType, makeCastAdd } from "@farcaster/hub-nodejs";
 import type { FarcasterClient } from "./client";
-import type { Content, IAgentRuntime, Memory, UUID } from "@ai16z/eliza";
+import type { Content, IAgentRuntime, Memory, UUID } from "@elizaos/eliza";
 import type { Cast, Profile } from "./types";
 import { createCastMemory } from "./memory";
 import { splitPostContent } from "./utils";

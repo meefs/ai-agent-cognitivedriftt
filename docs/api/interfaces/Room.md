@@ -1,4 +1,4 @@
-[@ai16z/eliza v0.1.4-alpha.3](../index.md) / Room
+[@elizaos/eliza v0.1.4-alpha.3](../index.md) / Room
 
 # Interface: Room
 

@@ -70,15 +70,15 @@ pnpm install --include=optional sharp
 
 ### Communauté et réseaux sociaux
 
--   [GitHub](https://github.com/ai16z/eliza/issues). Pour partager les bugs découverts lors de l'utilisation d'Eliza, et proposer de nouvelles fonctionnalités.
--   [Discord](https://discord.gg/ai16z). Pour partager ses applications et rencontrer la communauté.
+-   [GitHub](https://github.com/elizaos/eliza/issues). Pour partager les bugs découverts lors de l'utilisation d'Eliza, et proposer de nouvelles fonctionnalités.
+-   [Discord](https://discord.gg/elizaos). Pour partager ses applications et rencontrer la communauté.
 
 ## Contributeurs
 
-<a href="https://github.com/ai16z/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ai16z/eliza" />
+<a href="https://github.com/elizaos/eliza/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
 </a>
 
 ## Historique d'étoiles
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ai16z/eliza&type=Date)](https://star-history.com/#ai16z/eliza&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)

@@ -6,7 +6,7 @@
 
 <div align="center">
   
-  📖 [Dokümantasyon](https://ai16z.github.io/eliza/) | 🎯 [Örnekler](https://github.com/thejoven/awesome-eliza)
+  📖 [Dokümantasyon](https://elizaos.github.io/eliza/) | 🎯 [Örnekler](https://github.com/thejoven/awesome-eliza)
   
 </div>
 
@@ -78,15 +78,15 @@ pnpm install --include=optional sharp
 
 ### Topluluk ve İletişim
 
--   [GitHub Issues](https://github.com/ai16z/eliza/issues). Buna uygundur: Eliza kullanırken karşılaştığınız hatalar ve özellik önerileri.
--   [Discord](https://discord.gg/ai16z). Buna uygundur: Uygulamalarınızı paylaşmak ve toplulukla vakit geçirmek.
+-   [GitHub Issues](https://github.com/elizaos/eliza/issues). Buna uygundur: Eliza kullanırken karşılaştığınız hatalar ve özellik önerileri.
+-   [Discord](https://discord.gg/elizaos). Buna uygundur: Uygulamalarınızı paylaşmak ve toplulukla vakit geçirmek.
 
 ## Katkıda Bulunanlar
 
-<a href="https://github.com/ai16z/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ai16z/eliza" />
+<a href="https://github.com/elizaos/eliza/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
 </a>
 
 ## Yıldız Geçmişi
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ai16z/eliza&type=Date)](https://star-history.com/#ai16z/eliza&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)

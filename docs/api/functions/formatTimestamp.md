@@ -1,4 +1,4 @@
-[@ai16z/eliza v0.1.4-alpha.3](../index.md) / formatTimestamp
+[@elizaos/eliza v0.1.4-alpha.3](../index.md) / formatTimestamp
 
 # Function: formatTimestamp()
 

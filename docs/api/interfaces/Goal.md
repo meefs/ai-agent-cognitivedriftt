@@ -1,4 +1,4 @@
-[@ai16z/eliza v0.1.4-alpha.3](../index.md) / Goal
+[@elizaos/eliza v0.1.4-alpha.3](../index.md) / Goal
 
 # Interface: Goal
 
