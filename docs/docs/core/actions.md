@@ -34,7 +34,7 @@ interface Action {
 }
 ```
 
-Source: https://github.com/ai16z/eliza/packages/core/src/types.ts
+Source: https://github.com/elizaos/eliza/packages/core/src/types.ts
 
 ---
 
@@ -87,7 +87,7 @@ const take_order: Action = {
 };
 ```
 
-Source: https://github.com/ai16z/eliza/packages/plugin-solana/src/actions/takeOrder.ts
+Source: https://github.com/elizaos/eliza/packages/plugin-solana/src/actions/takeOrder.ts
 
 ---
 
@@ -452,7 +452,7 @@ const chainedAction: Action = {
 ## Example: Complete Action Implementation
 
 ```typescript
-import { Action, IAgentRuntime, Memory, State } from "@ai16z/eliza";
+import { Action, IAgentRuntime, Memory, State } from "@elizaos/eliza";
 
 const documentAnalysisAction: Action = {
   name: "ANALYZE_DOCUMENT",

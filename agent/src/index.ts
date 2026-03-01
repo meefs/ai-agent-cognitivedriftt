@@ -1,10 +1,10 @@
-import { PostgresDatabaseAdapter } from "@ai16z/adapter-postgres";
-import { SqliteDatabaseAdapter } from "@ai16z/adapter-sqlite";
-import { AutoClientInterface } from "@ai16z/client-auto";
-import { DirectClientInterface } from "@ai16z/client-direct";
-import { DiscordClientInterface } from "@ai16z/client-discord";
-import { TelegramClientInterface } from "@ai16z/client-telegram";
-import { TwitterClientInterface } from "@ai16z/client-twitter";
+import { PostgresDatabaseAdapter } from "@elizaos/adapter-postgres";
+import { SqliteDatabaseAdapter } from "@elizaos/adapter-sqlite";
+import { AutoClientInterface } from "@elizaos/client-auto";
+import { DirectClientInterface } from "@elizaos/client-direct";
+import { DiscordClientInterface } from "@elizaos/client-discord";
+import { TelegramClientInterface } from "@elizaos/client-telegram";
+import { TwitterClientInterface } from "@elizaos/client-twitter";
 import {
     AgentRuntime,
     CacheManager,
@@ -21,22 +21,22 @@ import {
     settings,
     stringToUuid,
     validateCharacterConfig,
-} from "@ai16z/eliza";
-import { zgPlugin } from "@ai16z/plugin-0g";
-import { goatPlugin } from "@ai16z/plugin-goat";
-import { bootstrapPlugin } from "@ai16z/plugin-bootstrap";
-// import { buttplugPlugin } from "@ai16z/plugin-buttplug";
+} from "@elizaos/eliza";
+import { zgPlugin } from "@elizaos/plugin-0g";
+import { goatPlugin } from "@elizaos/plugin-goat";
+import { bootstrapPlugin } from "@elizaos/plugin-bootstrap";
+// import { buttplugPlugin } from "@elizaos/plugin-buttplug";
 import {
     coinbaseCommercePlugin,
     coinbaseMassPaymentsPlugin,
     tradePlugin,
-} from "@ai16z/plugin-coinbase";
-import { confluxPlugin } from "@ai16z/plugin-conflux";
-import { imageGenerationPlugin } from "@ai16z/plugin-image-generation";
-import { evmPlugin } from "@ai16z/plugin-evm";
-import { createNodePlugin } from "@ai16z/plugin-node";
-import { solanaPlugin } from "@ai16z/plugin-solana";
-import { teePlugin } from "@ai16z/plugin-tee";
+} from "@elizaos/plugin-coinbase";
+import { confluxPlugin } from "@elizaos/plugin-conflux";
+import { imageGenerationPlugin } from "@elizaos/plugin-image-generation";
+import { evmPlugin } from "@elizaos/plugin-evm";
+import { createNodePlugin } from "@elizaos/plugin-node";
+import { solanaPlugin } from "@elizaos/plugin-solana";
+import { teePlugin } from "@elizaos/plugin-tee";
 import Database from "better-sqlite3";
 import fs from "fs";
 import path from "path";

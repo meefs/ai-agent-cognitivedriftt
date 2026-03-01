@@ -6,7 +6,7 @@ import {
     ModelClass,
     stringToUuid,
     type IAgentRuntime,
-} from "@ai16z/eliza";
+} from "@elizaos/eliza";
 import { isCastAddMessage, type Signer } from "@farcaster/hub-nodejs";
 import type { FarcasterClient } from "./client";
 import { toHex } from "viem";

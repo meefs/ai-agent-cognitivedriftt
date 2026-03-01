@@ -1,5 +1,5 @@
 {
-    "name": "@ai16z/eliza",
+    "name": "@elizaos/eliza",
     "version": "0.1.4-alpha.3",
     "description": "",
     "main": "dist/index.js",

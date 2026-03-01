@@ -105,7 +105,7 @@ Integrates Buttplug.io for intimate toy control:
 1. Install the desired plugin package:
 
 ```bash
-pnpm add @ai16z/plugin-[name]
+pnpm add @elizaos/plugin-[name]
 ```
 
 2. Import and register the plugin in your character configuration:
@@ -481,7 +481,7 @@ When successful, a response similar to the following will be returned:
 
 ---
 
-#### 7. TEE Plugin (`@ai16z/plugin-tee`)
+#### 7. TEE Plugin (`@elizaos/plugin-tee`)
 
 Integrates [Dstack SDK](https://github.com/Dstack-TEE/dstack) to enable TEE (Trusted Execution Environment) functionality and deploy secure & privacy-enhanced Eliza Agents:
 
@@ -493,7 +493,7 @@ Integrates [Dstack SDK](https://github.com/Dstack-TEE/dstack) to enable TEE (Tru
 **DeriveKeyProvider Usage**
 
 ```typescript
-import { DeriveKeyProvider } from "@ai16z/plugin-tee";
+import { DeriveKeyProvider } from "@elizaos/plugin-tee";
 
 // Initialize the provider
 const provider = new DeriveKeyProvider();
@@ -537,7 +537,7 @@ try {
 **RemoteAttestationProvider Usage**
 
 ```typescript
-import { RemoteAttestationProvider } from "@ai16z/plugin-tee";
+import { RemoteAttestationProvider } from "@elizaos/plugin-tee";
 // Initialize the provider
 const provider = new RemoteAttestationProvider();
 // Generate Remote Attestation
@@ -574,7 +574,7 @@ WALLET_SECRET_SALT=your-secret-salt // Required to single agent deployments
 Create a new plugin by implementing the Plugin interface:
 
 ```typescript
-import { Plugin, Action, Evaluator, Provider } from "@ai16z/eliza";
+import { Plugin, Action, Evaluator, Provider } from "@elizaos/eliza";
 
 const myCustomPlugin: Plugin = {
   name: "my-custom-plugin",

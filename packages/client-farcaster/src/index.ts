@@ -1,4 +1,4 @@
-import { Client, IAgentRuntime } from "@ai16z/eliza";
+import { Client, IAgentRuntime } from "@elizaos/eliza";
 import { Signer, NobleEd25519Signer } from "@farcaster/hub-nodejs";
 import { Hex, hexToBytes } from "viem";
 import { FarcasterClient } from "./client";

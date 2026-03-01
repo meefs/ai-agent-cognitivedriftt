@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  📖 [Документация](https://ai16z.github.io/eliza/) | 🎯 [Примеры](https://github.com/thejoven/awesome-eliza)
+  📖 [Документация](https://elizaos.github.io/eliza/) | 🎯 [Примеры](https://github.com/thejoven/awesome-eliza)
 
 </div>
 
@@ -175,15 +175,15 @@ npx --no node-llama-cpp source download --gpu cuda
 
 ### Сообщество и контакты
 
--   [GitHub Issues](https://github.com/ai16z/eliza/issues). Лучше всего подходит для: сообщений об ошибках при использовании Eliza и предложений новых функций.
--   [Discord](https://discord.gg/ai16z). Лучше всего подходит для: обмена своими приложениями и общения с сообществом.
+-   [GitHub Issues](https://github.com/elizaos/eliza/issues). Лучше всего подходит для: сообщений об ошибках при использовании Eliza и предложений новых функций.
+-   [Discord](https://discord.gg/elizaos). Лучше всего подходит для: обмена своими приложениями и общения с сообществом.
 
 ## Контрибьюторы
 
-<a href="https://github.com/ai16z/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ai16z/eliza" />
+<a href="https://github.com/elizaos/eliza/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
 </a>
 
 ## История звёзд
 
-[![График истории звёзд](https://api.star-history.com/svg?repos=ai16z/eliza&type=Date)](https://star-history.com/#ai16z/eliza&Date)
+[![График истории звёзд](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)

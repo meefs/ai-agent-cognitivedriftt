@@ -78,15 +78,15 @@ pnpm install --include=optional sharp
 
 ### Community e contatti
 
--   [GitHub Issues](https://github.com/ai16z/eliza/issues). Ideale per: bug riscontrati utilizzando Eliza e proposte di funzionalità.
--   [Discord](https://discord.gg/ai16z). Ideale per: condividere le tue applicazioni e interagire con la community.
+-   [GitHub Issues](https://github.com/elizaos/eliza/issues). Ideale per: bug riscontrati utilizzando Eliza e proposte di funzionalità.
+-   [Discord](https://discord.gg/elizaos). Ideale per: condividere le tue applicazioni e interagire con la community.
 
 ## Contributori
 
-<a href="https://github.com/ai16z/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ai16z/eliza" />
+<a href="https://github.com/elizaos/eliza/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
 </a>
 
 ## Cronologia Stelle
 
-[![Grafico Cronologia Stelle](https://api.star-history.com/svg?repos=ai16z/eliza&type=Date)](https://star-history.com/#ai16z/eliza&Date)
+[![Grafico Cronologia Stelle](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)

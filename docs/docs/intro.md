@@ -108,7 +108,7 @@ graph TD
 
 Eliza is backed by an active community of developers and users:
 
-- **Open Source**: Contribute to the project on [GitHub](https://github.com/ai16z/eliza)
+- **Open Source**: Contribute to the project on [GitHub](https://github.com/elizaos/eliza)
 - **Documentation**: Comprehensive guides and API references
 - **Examples**: Ready-to-use character templates and implementations
 - **Support**: Active community for troubleshooting and discussion

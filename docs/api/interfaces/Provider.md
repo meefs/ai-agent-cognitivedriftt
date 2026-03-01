@@ -1,4 +1,4 @@
-[@ai16z/eliza v0.1.4-alpha.3](../index.md) / Provider
+[@elizaos/eliza v0.1.4-alpha.3](../index.md) / Provider
 
 # Interface: Provider
 

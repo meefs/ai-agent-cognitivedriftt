@@ -1,4 +1,4 @@
-import { Character, ModelProviderName } from "@ai16z/eliza";
+import { Character, ModelProviderName } from "@elizaos/eliza";
 
 export const defaultCharacter: Character = {
     name: "Eliza",

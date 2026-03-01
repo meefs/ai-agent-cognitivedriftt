@@ -5,7 +5,7 @@ import {
     IAgentRuntime,
     ModelClass,
     stringToUuid,
-} from "@ai16z/eliza";
+} from "@elizaos/eliza";
 import { FarcasterClient } from "./client";
 import { formatTimeline, postTemplate } from "./prompts";
 import { castUuid } from "./utils";

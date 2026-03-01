@@ -12,25 +12,25 @@ Database Adapters provide Eliza's persistence layer, enabling storage and retrie
 
 Each adapter is optimized for different use cases:
 
-- **PostgreSQL** (`@ai16z/adapter-postgres`)
+- **PostgreSQL** (`@elizaos/adapter-postgres`)
 
   - Production-ready with vector search
   - Connection pooling and high performance
   - JSONB and pgvector support
 
-- **SQLite** (`@ai16z/adapter-sqlite`)
+- **SQLite** (`@elizaos/adapter-sqlite`)
 
   - Lightweight local development
   - No external dependencies
   - Full-text search capabilities
 
-- **Supabase** (`@ai16z/adapter-supabase`)
+- **Supabase** (`@elizaos/adapter-supabase`)
 
   - Cloud-native PostgreSQL
   - Real-time subscriptions
   - Built-in RPC functions
 
-- **SQL.js** (`@ai16z/adapter-sqljs`)
+- **SQL.js** (`@elizaos/adapter-sqljs`)
   - In-memory SQLite for testing
   - Browser compatibility
   - Zero configuration
@@ -139,16 +139,16 @@ Key components:
 
 ```bash
 # PostgreSQL
-pnpm add @ai16z/adapter-postgres pg
+pnpm add @elizaos/adapter-postgres pg
 
 # SQLite
-pnpm add @ai16z/adapter-sqlite better-sqlite3
+pnpm add @elizaos/adapter-sqlite better-sqlite3
 
 # SQL.js
-pnpm add @ai16z/adapter-sqljs sql.js
+pnpm add @elizaos/adapter-sqljs sql.js
 
 # Supabase
-pnpm add @ai16z/adapter-supabase @supabase/supabase-js
+pnpm add @elizaos/adapter-supabase @supabase/supabase-js
 ```
 
 ---
@@ -158,7 +158,7 @@ pnpm add @ai16z/adapter-supabase @supabase/supabase-js
 ### PostgreSQL Setup
 
 ```typescript
-import { PostgresDatabaseAdapter } from "@ai16z/adapter-postgres";
+import { PostgresDatabaseAdapter } from "@elizaos/adapter-postgres";
 
 const db = new PostgresDatabaseAdapter({
   connectionString: process.env.DATABASE_URL,
@@ -174,7 +174,7 @@ await db.testConnection();
 ### SQLite Setup
 
 ```typescript
-import { SqliteDatabaseAdapter } from "@ai16z/adapter-sqlite";
+import { SqliteDatabaseAdapter } from "@elizaos/adapter-sqlite";
 import Database from "better-sqlite3";
 
 const db = new SqliteDatabaseAdapter(
@@ -190,7 +190,7 @@ const db = new SqliteDatabaseAdapter(
 ### Supabase Setup
 
 ```typescript
-import { SupabaseDatabaseAdapter } from "@ai16z/adapter-supabase";
+import { SupabaseDatabaseAdapter } from "@elizaos/adapter-supabase";
 
 const db = new SupabaseDatabaseAdapter(
   process.env.SUPABASE_URL!,

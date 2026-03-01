@@ -1,7 +1,7 @@
-import { getEmbeddingZeroVector } from "@ai16z/eliza";
-import { Character, Client as ElizaClient, IAgentRuntime } from "@ai16z/eliza";
-import { stringToUuid } from "@ai16z/eliza";
-import { elizaLogger } from "@ai16z/eliza";
+import { getEmbeddingZeroVector } from "@elizaos/eliza";
+import { Character, Client as ElizaClient, IAgentRuntime } from "@elizaos/eliza";
+import { stringToUuid } from "@elizaos/eliza";
+import { elizaLogger } from "@elizaos/eliza";
 import {
     Client,
     Events,

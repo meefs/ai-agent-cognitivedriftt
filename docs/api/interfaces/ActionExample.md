@@ -1,4 +1,4 @@
-[@ai16z/eliza v0.1.4-alpha.3](../index.md) / ActionExample
+[@elizaos/eliza v0.1.4-alpha.3](../index.md) / ActionExample
 
 # Interface: ActionExample
 

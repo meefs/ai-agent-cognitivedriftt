@@ -39,7 +39,7 @@ graph TD
 
 ## Key Responsibilities
 
-The Agent Package (`@ai16z/agent`) serves as the orchestration layer for Eliza, handling:
+The Agent Package (`@elizaos/agent`) serves as the orchestration layer for Eliza, handling:
 
 - Character and plugin loading
 - Runtime initialization and management
@@ -50,13 +50,13 @@ The Agent Package (`@ai16z/agent`) serves as the orchestration layer for Eliza, 
 ## Installation
 
 ```bash
-pnpm add @ai16z/agent
+pnpm add @elizaos/agent
 ```
 
 ## Quick Start
 
 ```typescript
-import { startAgents, loadCharacters } from "@ai16z/agent";
+import { startAgents, loadCharacters } from "@elizaos/agent";
 
 // Load characters from files
 const args = parseArguments();

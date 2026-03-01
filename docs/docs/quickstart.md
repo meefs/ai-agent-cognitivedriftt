@@ -18,12 +18,12 @@ Before getting started with Eliza, ensure you have:
 
 1. **Clone and Install**
 
-   Please be sure to check what the [latest available stable version tag](https://github.com/ai16z/eliza/tags) is.
+   Please be sure to check what the [latest available stable version tag](https://github.com/elizaos/eliza/tags) is.
 
    Clone the repository
 
    ```bash
-   git clone https://github.com/ai16z/eliza.git
+   git clone https://github.com/elizaos/eliza.git
    ```
 
    Enter directory
@@ -228,10 +228,10 @@ pnpm start --characters="characters/trump.character.json,characters/tate.charact
    pnpm add -w -D ts-node typescript @types/node
 
    # Add dependencies to the agent package specifically
-   pnpm add -D ts-node typescript @types/node --filter "@ai16z/agent"
+   pnpm add -D ts-node typescript @types/node --filter "@elizaos/agent"
 
    # Also add to the core package since it's needed there too
-   pnpm add -D ts-node typescript @types/node --filter "@ai16z/eliza"
+   pnpm add -D ts-node typescript @types/node --filter "@elizaos/eliza"
 
    # First clean everything
    pnpm clean
@@ -283,6 +283,6 @@ Once you have your agent running, explore:
 3. ⚡ [Add Custom Actions](./core/actions.md)
 4. 🔧 [Advanced Configuration](./guides/configuration.md)
 
-For detailed API documentation, troubleshooting, and advanced features, check out our [full documentation](https://ai16z.github.io/eliza/).
+For detailed API documentation, troubleshooting, and advanced features, check out our [full documentation](https://elizaos.github.io/eliza/).
 
-Join our [Discord community](https://discord.gg/ai16z) for support and updates!
+Join our [Discord community](https://discord.gg/elizaos) for support and updates!

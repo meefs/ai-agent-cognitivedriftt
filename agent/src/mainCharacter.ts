@@ -1,4 +1,4 @@
-import { Character, ModelProviderName, Clients } from "@ai16z/eliza";
+import { Character, ModelProviderName, Clients } from "@elizaos/eliza";
 import { defaultCharacter } from './defaultCharacter.ts'
 
 export const mainCharacter: Character = {
